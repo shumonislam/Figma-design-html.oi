@@ -1,0 +1,128 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+.top_bar{}
+.head_top{
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    background: #E02020;
+}
+.header{
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 12px;
+    color: #FFF;
+}
+.search-button{
+    justify-content: center;
+    padding-top: 20px;
+    padding-right: 20px;
+   
+}
+.search-button input{
+    padding: 10px 50px;
+    background: #E02020;
+    border: 1px solid #FFF;
+    border-radius: 30px;
+}
+span{
+    color: #FFF;
+    font-size: 20px;
+    
+}
+.login_button{
+    margin: 0px;
+    margin-right: 20px;
+    margin-top: 30px;
+    
+}
+.login_button button{
+    padding: 5px 30px;
+    color: #E02020;
+    font-weight: 600;
+    background: #FFF;
+    border: 1px solid #FFF;
+    cursor:pointer;
+    border-radius: 10px;
+}
+.banner{
+    width: 100%;
+    height: 412px;
+    background: url(./images/banner.jpg); 
+}
+.banner img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.banner h1{
+    color: #E02020;
+    font-size: 40px;
+    font-weight: 50px;
+    text-align: center;
+    line-height: 5rem;
+}
+.banner p{
+    font-size: 16px;
+    text-align: center;
+}
+.card{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background: #D9D9D9;
+}
+.cardes i{
+    font-size: 50px;
+    color: #E02020;
+    padding-left: 60px;
+}
+.cardes h5{
+    padding-left: 30px;
+}
+
+
+.packgin{
+ 
+}
+.packgin h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200px;
+    margin-top: 50px;
+}
+.packgin p{
+    text-align: center;
+    margin: 8px;
+}
+.packag_card{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px;
+    margin: 40px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+}
+.packag_img img{
+    height: 160px;
+    width: 160px;
+    margin: 15px;
+    border: 1px solid #E02020;
+    border-radius: 10px;
+}
+
+.packag_list{
+    margin: 10px;
+    font-size: 22px;
+    line-height: 26px;
+
+}
+.right{
+    margin: 8px;
+    font-size: 1rem;
+}
